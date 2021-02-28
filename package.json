@@ -27,7 +27,7 @@
     "styled-components": "^5.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "publish:npm": "set NODE_ENV=production && rimraf dist && mkdir dist && babel src/components/library -d dist --copy-files"
   },
